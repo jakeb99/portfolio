@@ -6,9 +6,9 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 bg-gray-900 text-white shadow-md">
       <div className="container mx-auto py-4 flex justify-between items-center">
         <div className="flex flex-col leading-tight">
-          <Link to="/portfolio/">
+
             <h1 className="text-5xl font-bold">Jake Bunting</h1>
-          </Link>
+
           <span className="text-sm md:text-base text-gray-300 font-medium tracking-wide text-teal-200">Game Programmer</span>
         </div>
         <nav className="flex items-center space-x-4">
