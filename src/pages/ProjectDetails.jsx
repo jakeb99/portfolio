@@ -17,6 +17,9 @@ const ProjectDetails = () => {
 
     return (
     <div className="px-[15%] py-12 bg-gray-900">
+        <Link to={"/portfolio/"}>
+            <p className="text-xl font-bold text-teal-200 pb-1 hover:text-teal-400">back</p>
+        </Link>
         {renderProject()}
     </div>
     );
